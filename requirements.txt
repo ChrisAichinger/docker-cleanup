@@ -1,0 +1,3 @@
+# See setup.py for a list of required modules.
+# Cf. https://caremad.io/2013/07/setup-vs-requirement
+-e .

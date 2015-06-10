@@ -1,0 +1,14 @@
+* Document rules language more formally.
+
+* Correct error handling for IMPORT
+* Add --dump <id> commandline interface for dumping DockerObjects
+   - Take care to support @properties properly: Image.Name, Image.Dangling
+   - Note that container.Image is an Image instance, print its Id (or str())
+* More test coverage of error.py
+* Add DockerDeletionError class for better error messages (differentiate
+  between "no permissions to run docker" and "fail to delete container/image"
+* Add test for Statement.__str__
+
+* Add a setup.py command to automatically setup a local venv and install
+  python-dateutil in it.
+* Use tox as test runner (i.e. also test Python3.3)

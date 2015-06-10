@@ -1,0 +1,11 @@
+# General Python stuff
+*.pyc
+__pycache__/
+*.egg-info
+
+# Root directory
+/.coverage
+/htmlcov/
+/venv*/
+
+/docs/_build
